@@ -23,6 +23,9 @@ public class Student {
     lastName=lname;
 
   }
+  public String getLastName(){
+    return lastName;
+  }
     public void setId(int id) {
         this.id = id;
     }
